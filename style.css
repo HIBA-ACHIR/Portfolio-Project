@@ -18,7 +18,7 @@ sans-serif;
 
 html{
     font-size: 60%;
-    overflow: hidden;
+
 }
 body{
     background: var(--bg-color);
@@ -359,6 +359,58 @@ span{
     background-color:var(--bg-color) ;
     width: 50px;
 }
+.services{
+    background: var(--bg-color);
+    color: black;
+}
+.services h2 {
+    margin-bottom: 5rem;
+    color :white;
+}
+.services-container{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items:center;
+    gap:2.5rem;
+}
+.services-box{
+    background-color: var(--main-color);
+    height:300px;
+    border-radius: 3rem;
+    border:5px solid transparent;
+    cursor:pointer;
+    transition: 0.4s ease-in-out;
+
+}
+.services-box:hover{
+    background: white;
+    color: black;
+    border:5px solid var(--main-color);
+    transform: scale(1.03);
+
+}
+.services-box .service-info{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    max-height: 200px;
+    justify-content:left;
+    align-items:baseline;
+    padding:5rem 5rem;
+}
+.service-info h4{
+    font-size: 3rem;
+    font-weight: 800;
+    line-height:2;
+}
+.service-info p{
+    font-size:1.6rem;
+    font-weight:600;
+    max-height:100px;
+    line-height:1.7;
+    margin:auto;
+}
+
 
 
 
