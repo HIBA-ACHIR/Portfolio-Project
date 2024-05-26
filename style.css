@@ -359,21 +359,21 @@ span{
     background-color:var(--bg-color) ;
     width: 50px;
 }
-.services{
+.projects{
     background: var(--bg-color);
     color: black;
 }
-.services h2 {
+.projects h2 {
     margin-bottom: 5rem;
     color :white;
 }
-.services-container{
+.projects-container{
     display:grid;
     grid-template-columns: repeat(2,1fr);
     align-items:center;
     gap:2.5rem;
 }
-.services-box{
+.projects-box{
     background-color: var(--main-color);
     height:300px;
     border-radius: 3rem;
@@ -382,14 +382,14 @@ span{
     transition: 0.4s ease-in-out;
 
 }
-.services-box:hover{
+.projects-box:hover{
     background: white;
     color: black;
     border:5px solid var(--main-color);
     transform: scale(1.03);
 
 }
-.services-box .service-info{
+.projects-box .project-info{
     display: flex;
     flex-direction: column;
     text-align: left;
@@ -398,12 +398,12 @@ span{
     align-items:baseline;
     padding:5rem 5rem;
 }
-.service-info h4{
+.project-info h4{
     font-size: 3rem;
     font-weight: 800;
     line-height:2;
 }
-.service-info p{
+.project-info p{
     font-size:1.6rem;
     font-weight:600;
     max-height:100px;
@@ -523,7 +523,7 @@ span{
     html{
         font-size: 55%;
     }
-    .services-container{
+    .projects-container{
         padding-bottom:7rem;
         grid-template-columns: repeat(2,1fr);
         margin: 0 5rem;
@@ -552,7 +552,7 @@ span{
     .timeline-dot{
         left:0;
     }
-    .services{
+    .projects{
         padding-bottom: 7rem;
     }
     .testimonials .wrapper{
@@ -614,10 +614,10 @@ span{
     .home-img img{
         width:56vw;
     }
-    .services h2{
+    .projects h2{
         margin-bottom: 3rem;
     }
-    .services-container{
+    .projects-container{
         grid-template-columns: repeat(1,1fr);   
     }
 
